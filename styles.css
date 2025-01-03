@@ -1,0 +1,139 @@
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Playfair Display", serif;
+    }
+    body {
+        background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+        overflow-x: hidden;
+        color: rgb(225, 225, 225);
+        background-image: url('images/bg1.jpg');
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+    }
+
+    /* Header styling */
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        align-items: center;
+        z-index: 10;
+        background-color: rgba(108, 85, 85, 0.7); 
+        position: fixed;
+    }
+
+    header .logo {
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    ul li {
+        margin: 0px 20px;
+    }
+
+    ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    ul li a:hover {
+        color: white;
+    }
+
+    .banner {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        color: white;
+        transition: background-color 2s ease, transform 1s ease;
+    }
+
+    /* Button styles */
+    button {
+        background-color: black;
+        color: white;
+        width: 150px; /* Adjusted width */
+        height: 50px; /* Adjusted height */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        transition: background-color 0.5s ease;
+    }
+
+    /* Apply button styles to anchor tags inside buttons */
+    button a.anchor {
+        display: inline-block;
+        background-color: black;
+        color: white;
+        text-decoration: none; /* Ensure no underline */
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    button:hover {
+        background-color: rgb(51, 49, 49);
+    }
+
+    button a.anchor:hover {
+        background-color: rgb(51, 49, 49); /* Hover effect for anchor tag inside button */
+    }
+
+    /* Style adjustments for the content */
+    .content h2 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .content h2 {
+        font-size: 60px;  /* Increased the font size */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .intro{
+        padding: 300px;
+        font-size: 50px;
+        margin-left: -200px;
+    }
+    .intro img{
+        position: absolute; /* Allows positioning relative to the screen */
+    top: 50%; /* Vertically centers the image */
+    right: 0; /* Positions the image to the right edge */
+    transform: translateY(-50%); /* Adjusts the vertical position to truly center */
+    max-width: 1000px; /* Optional: Adjusts the image size */    
+     }
+     .intro h2{
+        color: black;
+     }
