@@ -35,7 +35,7 @@ function App() {
               animate={{ opacity: 1, x: 0 }}
               className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-500 text-transparent bg-clip-text"
             >
-              Rudra.dev
+              Rudra.Salokhe
             </motion.div>
 
             <div className="hidden md:flex space-x-8">
@@ -92,7 +92,7 @@ function App() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Hi, I'm <span className="bg-gradient-to-r from-emerald-400 to-teal-500 text-transparent bg-clip-text">Rudra Salokkhe</span>
             </h1>
-            <p className="text-xl text-gray-400 mb-8">Full Stack Developer | Mobile & Web Enthusiast</p>
+            <p className="text-xl text-gray-400 mb-8">Front-End Engineer striving to be a Full Stack Developer</p>
           </motion.div>
         </div>
       </section>
